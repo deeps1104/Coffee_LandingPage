@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#page1{
+  background-color: #583424;
+
+}
+.navbar .navbar-brand {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 2px;
+
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 22px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.fa-mug-saucer {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 5px;
+}
+.btn{
+  /* color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    letter-spacing: 0.05em; */
+    background-color: #000;
+  color: #fff;
+  padding: 12px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  letter-spacing: 0.05em; 
+  font-weight: bold;
+
+  }
+  
+  .btn:hover,
+  .btn:focus,
+  .btn.active {
+
+    background: #583424;
+    color: #ffffff;
+    border-color: #fff;
+  }
+
+  
