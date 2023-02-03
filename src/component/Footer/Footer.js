@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer class="section bg-footer">
+    <footer class="section bg-footer mt-5">
     <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -45,8 +45,13 @@ const Footer = () => {
                 <div class="col-lg-4">
                     <div class="">
                         <h6 class="footer-heading text-uppercase">Contact Us</h6>
+                        <p class="contact-info">2nd Floor, 2082, 24th Main Rd, Vanganahalli 1st Sector,
+HSR Layout, Bengaluru 560102</p>
+
                         <p class="contact-info mt-4">Contact us if need help withanything</p>
-                        <p class="contact-info">+01 123-456-7890</p>
+                        <p class="contact-info">+91 80 47108111</p>
+                        <p class="contact-info">Email: support@cafecoffee.co.in</p>
+
                         <div class="mt-5">
                             <ul class="list-inline">
                                 <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></a></li>
@@ -62,7 +67,7 @@ const Footer = () => {
         </div>
         <div class="text-center mt-5">
           <hr />
-            <p class="footer-alt mb-0 f-14" id='reserve1'>2023 © Coffee Cafe, All Rights Reserved</p>
+            <p class="footer-alt mb-0 f-14" id='reserve1'>Copyright 2023 | Coffee Cafe, All Rights Reserved</p>
         </div>
         </footer>
     

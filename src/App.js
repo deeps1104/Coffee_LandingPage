@@ -1,3 +1,6 @@
+import Blog from './component/Blog/Blog';
+import Card from './component/Card/Card';
+import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
 import Hero from './component/Hero/Hero';
 import Home from './component/Home';
@@ -5,9 +8,13 @@ import Home from './component/Home';
 function App() {
   return (
     <div className="App">
-      <Home/>
       {/* <Hero/> */}
-      <Footer/>
+       {/* <Home/>  */}
+      {/* <Card/>
+      <Blog/>
+      <Footer/> */}
+      <Contact/>
+      {/* <Footer/> */}
     </div>
   );
 }
