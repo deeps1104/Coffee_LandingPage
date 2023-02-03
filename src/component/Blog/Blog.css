@@ -1,0 +1,40 @@
+.rounded-lg {
+  border-radius: 2rem;
+}
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+ .img-fluid {
+  height: 85%;
+  width: 80%;
+}
+
+.ratio .img-fluid {
+  height: 90%;
+  width: 85%;
+}
+
+#para1{
+word-spacing: 2px;
+font-size: 20px;
+}
+
+
+/* .ratio {
+  position: relative;
+  width: 100%;
+} */
+
+.ratio-1x1 {
+  --bs-aspect-ratio: 100%;
+}
+
+.text-primary {
+  word-spacing: 2px;
+
+}
+
+
+span {
+  color: #8E3200;
+}
