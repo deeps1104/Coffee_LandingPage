@@ -16,7 +16,7 @@ const Service = () => {
                 <div class="row our-offer-items less-carousel">
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fas fa-coffee"></i>
                             <h4>Full Coffee Bar</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -26,7 +26,7 @@ const Service = () => {
 
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-dharmachakra"></i>
+                            <i class="fas fa-shopping-bag"></i>
                             <h4>Shipping & Receiving</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -56,7 +56,7 @@ const Service = () => {
                     
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-recycle"></i>
+                            <i class="fas fa-play-circle"></i>
                             <h4>Cofffee Playlist</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

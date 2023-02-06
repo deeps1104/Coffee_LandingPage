@@ -20,10 +20,10 @@ function App() {
       <About/>
       <Privacy/>
       <Team/>
+    <Service/>
     <Contact/>
     {/* <Career/> */}
     <Footer/>
-    <Service/>
     </div>
   );
 }
