@@ -2,7 +2,6 @@ import React from 'react'
 import './Card.css'
 const Card = () => {
   return (
-
     <div class="container mt-3" >
       <div class="card card-block mb-3">
         <a href="#" class="btn"style={{fontSize:"40px", wordSpacing:"1px"  }}>TESTIMONIALS</a>

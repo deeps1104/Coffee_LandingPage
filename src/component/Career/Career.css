@@ -1,0 +1,14 @@
+ .img-responsive {
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 450px;
+position: relative;
+width: 100%;
+}
+.maintxt > img, .overlay-text {
+  position: absolute;
+} 
+
+
+

@@ -37,7 +37,7 @@ const Home = () => {
           <p class="display-4">Enjoy Your Day With Coffee</p>
           <p class="lead">Like everyone else who makes the mistake of getting
           older, <br/>I begin each day with coffee with obituaries</p>
-          <button type='button' className='btn'>Order Coffee</button>
+          <button type='button' className='btn1'>Order Coffee</button>
         </div>
     </div>
     <div class="col-6">

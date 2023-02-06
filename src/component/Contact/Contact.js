@@ -1,6 +1,7 @@
 import React from 'react'
-import "./Contact.css"
+// import "./Contact.css"
 const Contact = () => {
+ 
   return (
     
     <div>
@@ -25,7 +26,13 @@ const Contact = () => {
             </div>
             <div class="col-md-6">
               <label for="your-surname" class="form-label">What is this about</label>
-              <input type="number" class="form-control"  placeholder="What is this about ?" required/>
+              <input type="text" class="form-control"  placeholder="What is this about ?" required/>
+            </div>
+            <div class="col-md-6">
+<label>In Rreference To</label>
+                  &nbsp; &nbsp; &nbsp; <input type="radio"  value="order" /> Order
+                  &nbsp; &nbsp; <input type="radio"  value="Product" /> Product
+                  &nbsp; &nbsp; <input type="radio"  value="other" /> Other<br />
             </div>
             
             <div class="col-12">
@@ -35,17 +42,16 @@ const Contact = () => {
             <div class="col-12">
               <div class="row">
                 <div class="col-md-6">
-                  <button type="submit" class="btn btn-dark w-100 fw-bold" >Submit</button>
+                  <button type="submit" class="btn btn-dark w-100 fw-bold" style={{letterSpacing:"2px"}}>Submit</button>
                 </div>
               </div>
             </div>
           </div>
         </form>
       </div>
-    </div>
-    
+    </div>   
   </div>
-  
+ 
     </div>
   )
 }

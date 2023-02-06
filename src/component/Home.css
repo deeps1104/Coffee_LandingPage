@@ -39,28 +39,25 @@
   font-size: 35px;
   margin-top: 5px;
 }
-.btn{
-  /* color: #fff;
-    background-color: #000;
-    font-weight: bold;
-    letter-spacing: 0.05em; */
+.btn1{
+  width: 45%;
     background-color: #000;
   color: #fff;
-  padding: 12px 35px;
+  padding: 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
-  letter-spacing: 0.05em; 
+  letter-spacing: 2px;
   font-weight: bold;
-
-  }
+  border-radius:0px 14px;
+;  }
   
-  .btn:hover,
-  .btn:focus,
-  .btn.active {
+  .btn1:hover,
+  .btn1:focus,
+  .btn1.active {
 
     background: #583424;
     color: #ffffff;

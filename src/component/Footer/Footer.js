@@ -45,14 +45,14 @@ const Footer = () => {
                 <div class="col-lg-4">
                     <div class="">
                         <h6 class="footer-heading text-uppercase">Contact Us</h6>
-                        <p class="contact-info">2nd Floor, 2082, 24th Main Rd, Vanganahalli 1st Sector,
-HSR Layout, Bengaluru 560102</p>
+                        {/* <p class="contact-info mt-4">2nd Floor, 2082, 24th Main Rd, Vanganahalli 1st Sector,
+HSR Layout, Bengaluru 560102</p> */}
 
                         <p class="contact-info mt-4">Contact us if need help withanything</p>
                         <p class="contact-info">+91 80 47108111</p>
                         <p class="contact-info">Email: support@cafecoffee.co.in</p>
 
-                        <div class="mt-5">
+                        <div class="mt-3">
                             <ul class="list-inline">
                                 <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></a></li>
