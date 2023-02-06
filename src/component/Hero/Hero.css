@@ -1,9 +1,28 @@
-/* #page2 {
-   background-color:  #905A30 ;
-width: 100%;
+#btn2 {
+  width: 45%;
+      background-color: #6F4436;
+    color: #fff;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    letter-spacing: 0.05em; 
+    font-weight: bold;
+  letter-spacing: 4px;
+    
 }
 
-p {
-  text-align: center;
-  font-size: 50px;
-} */
+#btn2:hover,
+  #btn2:focus,
+  #btn2.active {
+color: #000;
+    background: #ece0d1;
+    /* border-color: #B29173; */
+  }
+
+  #find1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }

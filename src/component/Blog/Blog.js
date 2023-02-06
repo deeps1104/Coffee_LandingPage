@@ -12,7 +12,7 @@ const Blog = () => {
         </div>
         <div className="col-md-6 col-lg-5 mx-auto align-item-center mt-5">
          <h2 className="display-2 fw-bolder my-4 mt-md-0">Our Partner <br />
-         <span>Roaster</span></h2>
+         <span id='span1'>Roaster</span></h2>
          <p className='text-md-start mx-auto' id='para1'>We’ve partnered with the most skilled coffee roasters in the country to bring you a coffee experience that’s truly amazing.
          but coffee only holds this magic for a few weeks! You deserve to treat yourself to a fresh brew if you’ve never experienced a perspective-altering cup of fresh flavorful coffee.
          </p>
@@ -29,7 +29,7 @@ const Blog = () => {
         <div className="col-md-6 col-lg-5 mx-auto order-md-1">
            <h2 className="display-3 my-4 mt-md-0 fw-bolder mb-3">Meet Your
            <br />
-           <span className="pe-3">Brew</span>
+           <span className="pe-3" id='span1'>Brew</span>
            Crew
            </h2>
            <p className='lh-base' id='para1'>Our subscription connects you to the country’s best coffees and a team of passionate coffee experts who’ll personally handpick the beans [or grounds] that you will love!
@@ -64,7 +64,7 @@ Ever tasted fruits and berries in your coffee? We’re not kidding. Freshly roas
         <div className="col-md-6 col-lg-5 mx-auto align-item-center mt-5">
         <h2 class="display-3 fw-bolder my-4 mt-md-0">
 It’s not coffee <br />
-<span>if it's not fresh</span>
+<span id='span1'>if it's not fresh</span>
 </h2>
          <p id='para1'>
 Ever tasted fruits and berries in your coffee? We’re not kidding. Freshly roasted coffee explodes with flavour. Natural oils from fresh beans break down to create a confluence of myriad aromas and flavours, but coffee only holds this magic for a few weeks! You deserve to treat yourself to a fresh brew if you’ve never experienced a perspective-altering cup of fresh flavorful coffee.
