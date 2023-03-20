@@ -1,10 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Home.css'
 import CoffeeImage from '../assets/coffee_Cup1.png'
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 150,
+      duration: 2000,
+      delay: 50,
+      mirror: true,
+    });
+  });
   return (
-    <div id='page1'>
+    <div id='page1' data-aos="zoom-in">
     <nav class="navbar sticky-top navbar-expand-lg">
     <div class="container">
     <i class="fa-solid fa-mug-saucer"></i>&nbsp;

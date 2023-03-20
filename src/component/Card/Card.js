@@ -1,8 +1,19 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import './Card.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Card = () => {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 150,
+      duration: 2000,
+      delay: 50,
+      mirror: true,
+    });
+  });
   return (
-    <div class="container mt-3" >
+    <div class="container mt-3" data-aos="fade-in">
       <div class="card card-block mb-3">
         <a href="#" class="btn"style={{fontSize:"40px", wordSpacing:"1px"  }}>TESTIMONIALS</a>
       </div>

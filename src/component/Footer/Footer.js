@@ -48,7 +48,7 @@ const Footer = () => {
                         {/* <p class="contact-info mt-4">2nd Floor, 2082, 24th Main Rd, Vanganahalli 1st Sector,
 HSR Layout, Bengaluru 560102</p> */}
 
-                        <p class="contact-info mt-4">Contact us if need help withanything</p>
+                        <p class="contact-info mt-4">Contact us if need help with anything</p>
                         <p class="contact-info">+91 80 47108111</p>
                         <p class="contact-info">Email: support@cafecoffee.co.in</p>
 
